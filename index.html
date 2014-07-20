@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>t.d.h. smith</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+<style>
+* {box-sizing: border-box;}
+
+body {
+  background-color: #444444;
+  color: #EEEEEE;
+}
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  }
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+#name_banner {
+  font-family: 'Raleway', Helvetica, Arial, Verdana;
+  text-shadow: 0px 0px 12px black;
+  font-size: 40pt;
+  font-weight: bold;
+  text-align: center;
+  padding:20px;
+}
+
+.subtitle {
+  font-size: smaller;
+}
+
+#banner_flourish {
+  height: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #EEEEEE;
+  border-left: 0;
+  border-right: 0;
+}
+
+#project_list {
+  list-style-type: none;
+  margin-left:40px;
+  margin-right: 40px;
+  padding-left: 0;
+}
+
+.project {
+  min-height: 120px;
+  background-color: rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 6px #666666;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2%;
+  font-family: 'Raleway', Helvetica, Arial, Verdana;
+  text-align: right;
+}
+
+.major {
+  width: 96%;
+}
+
+.minor {
+  width: 29.3%;
+  float: left;
+}
+
+.project p {
+  padding-left: 10px;
+}
+
+.project header {
+  text-align: left;
+  font-weight: bold;
+}
+
+.coming_soon {
+  font-style: italic;
+  color: #AAAAAA;
+  font-size: bigger;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: 10pt;
+  font-style: italic;
+  color: #AAAAAA;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+</style>
+</head>
+<body>
+
+  <div id="name_banner">
+    t. d. h. smith
+  </div>
+
+  <ul id="project_list" class="group">
+
+    <li class="project major">
+      <header>project 1</header>
+    </li>
+
+    <li class="project minor">
+      <header>Choral Music Arrangement</header>
+      <p>A number of my arrangements are available for purchase in the <a href="http://www.musicnotes.com/sheetmusic/mtdFPE.asp?ppn=MN0133892">Musicnotes catalog</a>. My work for private a cappella groups is unavailable due to distribution and licensing restrictions, but samples can be provided upon request.</p>
+      <div style="display: none;">
+        <a href="http://www.musicnotes.com/sheetmusic/mtdFPE.asp?ppn=MN0131888">Wrecking Ball by Miley Cyrus</a>
+        <a href="http://www.musicnotes.com/sheetmusic/mtdFPE.asp?ppn=MN0131572">Counting Stars by OneRepublic</a>
+        <a href="http://www.musicnotes.com/sheetmusic/mtdFPE.asp?ppn=MN0135373">Demons by Imagine Dragons</a>
+        <a href="http://www.musicnotes.com/sheetmusic/mtdFPE.asp?ppn=MN0133892">Safe and Sound by Capital Cities</a>
+      </div>
+    </li>
+
+    <li class="project minor">
+      <header>project 3</header>
+      <div class="coming_soon">Coming soon</div>
+    </li>
+
+    <li class="project minor">
+      <header>project 4</header>
+    </li>
+
+  </ul>
+
+  <footer>
+    Content of site is subject to the <a href="https://www.mozilla.org/MPL/2.0/">Mozilla Public License 2.0</a>, except where noted. Projects are licensed individually, generally as indicated on their respective GitHub pages.
+  </footer>
+
+</body>
+</html>
